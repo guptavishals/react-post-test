@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import { Link } from 'react-router-dom';
 
+// import style
+import './styles/style.css';
 
 class Container extends Component  {
 
@@ -11,7 +13,8 @@ class Container extends Component  {
   }
   render(){
     return (
-      <div className='container'>
+      <div className='container'> 
+        <h1>Go To</h1>
         <ul>
           <li>
             <Link to="/post" > Post </Link>
